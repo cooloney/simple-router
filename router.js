@@ -1,8 +1,3 @@
-Router.configure({
-  layoutTemplate: 'hello',
-});
 
-Router.map(function() {
-  this.route('test');
-});
-
+Router.route('/', 'hello');
+Router.route('test');
